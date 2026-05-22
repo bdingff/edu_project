@@ -1,0 +1,17 @@
+{
+  "name": "slow-read",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Slow Read — minimalist English reading app (Phase 2 MVP).",
+  "scripts": {
+    "serve": "python3 -m http.server 8765",
+    "test": "node --test tests/article.test.mjs tests/dom.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdingff/edu_project.git"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3"
+  }
+}

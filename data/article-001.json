@@ -1,0 +1,237 @@
+{
+  "id": "demo-001",
+  "title": "The Art of Noticing",
+  "hook": "Why slowing down might be the most modern skill of all.",
+  "level": "CEFR B1",
+  "estimated_minutes": 25,
+  "word_count": 197,
+  "paragraphs": [
+    { "id": "p1", "sentence_ids": ["s1", "s2", "s3"] },
+    { "id": "p2", "sentence_ids": ["s4", "s5", "s6", "s7"] },
+    { "id": "p3", "sentence_ids": ["s8", "s9", "s10", "s11", "s12", "s13", "s14", "s15"] },
+    { "id": "p4", "sentence_ids": ["s16", "s17"] }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "translation": "在这个充斥着无尽信息流的时代，我们学会了用比思考更快的速度滑动屏幕。",
+      "chunks": [
+        "In an age of endless feeds,",
+        "we have learned to scroll",
+        "faster than we can think."
+      ]
+    },
+    {
+      "id": "s2",
+      "translation": "我们的眼睛从一张明亮的图片跳向下一张，我们的心思追逐着任何看起来新鲜的事物。",
+      "chunks": [
+        "Our eyes jump from one bright image to the next,",
+        "and our minds chase whatever feels new."
+      ]
+    },
+    {
+      "id": "s3",
+      "translation": "然而真相很简单：任何有意义的东西都无法在匆忙中被理解。",
+      "chunks": [
+        "Yet the truth is simple:",
+        "nothing meaningful can be understood",
+        "in a hurry."
+      ]
+    },
+    {
+      "id": "s4",
+      "translation": "缓慢地阅读，是一种安静的反抗。",
+      "chunks": [
+        "Reading slowly",
+        "is a quiet kind of rebellion."
+      ]
+    },
+    {
+      "id": "s5",
+      "translation": "当你选择停留在一句话上时，你就给了它一个让你惊讶的机会。",
+      "chunks": [
+        "When you choose to stay with a single sentence,",
+        "you give it the chance",
+        "to surprise you."
+      ]
+    },
+    {
+      "id": "s6",
+      "translation": "一个你以为自己认识的单词，可能突然带上一种新的色彩。",
+      "chunks": [
+        "A word you thought you knew",
+        "may suddenly carry a new color."
+      ]
+    },
+    {
+      "id": "s7",
+      "translation": "一行你去年匆匆扫过的句子，今天可能会让你停下来，并问你一个你回答不了的问题。",
+      "chunks": [
+        "A line you skimmed last year",
+        "may stop you today",
+        "and ask a question you cannot answer."
+      ]
+    },
+    {
+      "id": "s8",
+      "translation": "这就是留意的艺术。",
+      "chunks": [
+        "This is the art of noticing."
+      ]
+    },
+    {
+      "id": "s9",
+      "translation": "它不需要天赋，也不需要特殊的工具。",
+      "chunks": [
+        "It does not require talent",
+        "or special tools."
+      ]
+    },
+    {
+      "id": "s10",
+      "translation": "它只要求耐心，以及一份愿意安静下来的心。",
+      "chunks": [
+        "It only asks for patience",
+        "and a willingness to be still."
+      ]
+    },
+    {
+      "id": "s11",
+      "translation": "今晚就试试吧。",
+      "chunks": [
+        "Try it tonight."
+      ]
+    },
+    {
+      "id": "s12",
+      "translation": "找一个短小的段落，把它读三遍。",
+      "chunks": [
+        "Find one short paragraph",
+        "and read it three times."
+      ]
+    },
+    {
+      "id": "s13",
+      "translation": "第一遍，跟随文字。",
+      "chunks": [
+        "The first time,",
+        "follow the words."
+      ]
+    },
+    {
+      "id": "s14",
+      "translation": "第二遍，观察作者如何构建意义。",
+      "chunks": [
+        "The second time,",
+        "watch how the writer builds the meaning."
+      ]
+    },
+    {
+      "id": "s15",
+      "translation": "第三遍，倾听那些没有被说出口的内容。",
+      "chunks": [
+        "The third time,",
+        "listen for what is not said."
+      ]
+    },
+    {
+      "id": "s16",
+      "translation": "你会发现，仅仅一页纸所容纳的，可能比一百块屏幕还要多。",
+      "chunks": [
+        "You will discover",
+        "that a single page",
+        "can hold more than a hundred screens."
+      ]
+    },
+    {
+      "id": "s17",
+      "translation": "而在那个发现里，你或许会重新想起一种我们几乎遗忘的感受：那份认真留意时的安静喜悦。",
+      "chunks": [
+        "And in that discovery,",
+        "you may begin to remember a feeling",
+        "we have almost forgotten:",
+        "the quiet joy of paying attention."
+      ]
+    }
+  ],
+  "glossary": {
+    "age": { "ipa": "/eɪdʒ/", "zh": "时代；年代", "example": "In an age of endless feeds, we scroll faster than we think." },
+    "endless": { "ipa": "/ˈendləs/", "zh": "无尽的；无穷的", "example": "An age of endless feeds." },
+    "feeds": { "ipa": "/fiːdz/", "zh": "信息流（社交媒体推送）", "example": "An age of endless feeds." },
+    "scroll": { "ipa": "/skroʊl/", "zh": "滑动（屏幕）", "example": "We have learned to scroll faster than we can think." },
+    "faster": { "ipa": "/ˈfæstər/", "zh": "更快地", "example": "Scroll faster than we can think." },
+    "bright": { "ipa": "/braɪt/", "zh": "明亮的；鲜艳的", "example": "From one bright image to the next." },
+    "image": { "ipa": "/ˈɪmɪdʒ/", "zh": "图像；画面", "example": "From one bright image to the next." },
+    "minds": { "ipa": "/maɪndz/", "zh": "心思；头脑", "example": "Our minds chase whatever feels new." },
+    "chase": { "ipa": "/tʃeɪs/", "zh": "追逐；追赶", "example": "Our minds chase whatever feels new." },
+    "whatever": { "ipa": "/wɒtˈevər/", "zh": "无论什么", "example": "Chase whatever feels new." },
+    "truth": { "ipa": "/truːθ/", "zh": "真相；事实", "example": "Yet the truth is simple." },
+    "simple": { "ipa": "/ˈsɪmpəl/", "zh": "简单的", "example": "The truth is simple." },
+    "meaningful": { "ipa": "/ˈmiːnɪŋfəl/", "zh": "有意义的", "example": "Nothing meaningful can be understood in a hurry." },
+    "understood": { "ipa": "/ˌʌndərˈstʊd/", "zh": "被理解（understand 的过去分词）", "example": "Nothing meaningful can be understood in a hurry." },
+    "hurry": { "ipa": "/ˈhʌri/", "zh": "匆忙；急忙", "example": "Understood in a hurry." },
+    "slowly": { "ipa": "/ˈsloʊli/", "zh": "缓慢地", "example": "Reading slowly is a quiet kind of rebellion." },
+    "quiet": { "ipa": "/ˈkwaɪət/", "zh": "安静的；平静的", "example": "A quiet kind of rebellion." },
+    "kind": { "ipa": "/kaɪnd/", "zh": "种类；类型", "example": "A quiet kind of rebellion." },
+    "rebellion": { "ipa": "/rɪˈbeljən/", "zh": "反抗；反叛", "example": "A quiet kind of rebellion." },
+    "choose": { "ipa": "/tʃuːz/", "zh": "选择", "example": "When you choose to stay with a single sentence." },
+    "stay": { "ipa": "/steɪ/", "zh": "停留；停下", "example": "Stay with a single sentence." },
+    "single": { "ipa": "/ˈsɪŋɡəl/", "zh": "单一的；唯一的", "example": "Stay with a single sentence." },
+    "sentence": { "ipa": "/ˈsentəns/", "zh": "句子", "example": "Stay with a single sentence." },
+    "chance": { "ipa": "/tʃæns/", "zh": "机会", "example": "Give it the chance to surprise you." },
+    "surprise": { "ipa": "/sərˈpraɪz/", "zh": "使惊讶；意外", "example": "The chance to surprise you." },
+    "thought": { "ipa": "/θɔːt/", "zh": "认为（think 的过去式）", "example": "A word you thought you knew." },
+    "knew": { "ipa": "/njuː/", "zh": "知道（know 的过去式）", "example": "A word you thought you knew." },
+    "suddenly": { "ipa": "/ˈsʌdənli/", "zh": "突然地", "example": "May suddenly carry a new color." },
+    "carry": { "ipa": "/ˈkæri/", "zh": "带有；承载", "example": "Suddenly carry a new color." },
+    "color": { "ipa": "/ˈkʌlər/", "zh": "颜色；色彩", "example": "Carry a new color." },
+    "line": { "ipa": "/laɪn/", "zh": "（一）行；句子", "example": "A line you skimmed last year." },
+    "skimmed": { "ipa": "/skɪmd/", "zh": "略读；浏览（skim 的过去式）", "example": "A line you skimmed last year." },
+    "stop": { "ipa": "/stɒp/", "zh": "使停下", "example": "May stop you today." },
+    "ask": { "ipa": "/æsk/", "zh": "问；询问", "example": "Ask a question you cannot answer." },
+    "question": { "ipa": "/ˈkwestʃən/", "zh": "问题", "example": "Ask a question you cannot answer." },
+    "answer": { "ipa": "/ˈænsər/", "zh": "回答", "example": "A question you cannot answer." },
+    "art": { "ipa": "/ɑːrt/", "zh": "艺术；技艺", "example": "This is the art of noticing." },
+    "noticing": { "ipa": "/ˈnoʊtɪsɪŋ/", "zh": "留意；觉察（notice 的动名词）", "example": "The art of noticing." },
+    "require": { "ipa": "/rɪˈkwaɪər/", "zh": "需要；要求", "example": "It does not require talent." },
+    "talent": { "ipa": "/ˈtælənt/", "zh": "天赋；才能", "example": "Require talent or special tools." },
+    "special": { "ipa": "/ˈspeʃəl/", "zh": "特别的；特殊的", "example": "Require talent or special tools." },
+    "tools": { "ipa": "/tuːlz/", "zh": "工具", "example": "Talent or special tools." },
+    "asks": { "ipa": "/æsks/", "zh": "要求；询问", "example": "It only asks for patience." },
+    "patience": { "ipa": "/ˈpeɪʃəns/", "zh": "耐心", "example": "Asks for patience." },
+    "willingness": { "ipa": "/ˈwɪlɪŋnəs/", "zh": "意愿；情愿", "example": "A willingness to be still." },
+    "still": { "ipa": "/stɪl/", "zh": "静止的；安静下来", "example": "A willingness to be still." },
+    "try": { "ipa": "/traɪ/", "zh": "尝试", "example": "Try it tonight." },
+    "tonight": { "ipa": "/təˈnaɪt/", "zh": "今晚", "example": "Try it tonight." },
+    "find": { "ipa": "/faɪnd/", "zh": "找到；发现", "example": "Find one short paragraph." },
+    "short": { "ipa": "/ʃɔːrt/", "zh": "短的", "example": "One short paragraph." },
+    "paragraph": { "ipa": "/ˈpærəɡrɑːf/", "zh": "段落", "example": "One short paragraph." },
+    "read": { "ipa": "/riːd/", "zh": "读；阅读", "example": "Read it three times." },
+    "times": { "ipa": "/taɪmz/", "zh": "次；遍", "example": "Read it three times." },
+    "first": { "ipa": "/fɜːrst/", "zh": "第一", "example": "The first time, follow the words." },
+    "follow": { "ipa": "/ˈfɒloʊ/", "zh": "跟随；遵循", "example": "Follow the words." },
+    "second": { "ipa": "/ˈsekənd/", "zh": "第二", "example": "The second time." },
+    "watch": { "ipa": "/wɒtʃ/", "zh": "观察；注视", "example": "Watch how the writer builds the meaning." },
+    "writer": { "ipa": "/ˈraɪtər/", "zh": "作者；作家", "example": "How the writer builds the meaning." },
+    "builds": { "ipa": "/bɪldz/", "zh": "建立；构建", "example": "The writer builds the meaning." },
+    "meaning": { "ipa": "/ˈmiːnɪŋ/", "zh": "意义；含义", "example": "Builds the meaning." },
+    "third": { "ipa": "/θɜːrd/", "zh": "第三", "example": "The third time." },
+    "listen": { "ipa": "/ˈlɪsən/", "zh": "倾听；聆听", "example": "Listen for what is not said." },
+    "said": { "ipa": "/sed/", "zh": "说（say 的过去分词）", "example": "Listen for what is not said." },
+    "discover": { "ipa": "/dɪˈskʌvər/", "zh": "发现", "example": "You will discover that a single page can hold more." },
+    "page": { "ipa": "/peɪdʒ/", "zh": "（书的）一页", "example": "A single page." },
+    "hold": { "ipa": "/hoʊld/", "zh": "容纳；包含", "example": "A single page can hold more than a hundred screens." },
+    "more": { "ipa": "/mɔːr/", "zh": "更多", "example": "Hold more than a hundred screens." },
+    "hundred": { "ipa": "/ˈhʌndrəd/", "zh": "一百", "example": "More than a hundred screens." },
+    "screens": { "ipa": "/skriːnz/", "zh": "屏幕", "example": "A hundred screens." },
+    "discovery": { "ipa": "/dɪˈskʌvəri/", "zh": "发现", "example": "In that discovery." },
+    "begin": { "ipa": "/bɪˈɡɪn/", "zh": "开始", "example": "You may begin to remember." },
+    "remember": { "ipa": "/rɪˈmembər/", "zh": "记起；想起", "example": "Begin to remember a feeling." },
+    "feeling": { "ipa": "/ˈfiːlɪŋ/", "zh": "感受；感觉", "example": "A feeling we have almost forgotten." },
+    "almost": { "ipa": "/ˈɔːlmoʊst/", "zh": "几乎；差不多", "example": "A feeling we have almost forgotten." },
+    "forgotten": { "ipa": "/fərˈɡɒtən/", "zh": "忘记（forget 的过去分词）", "example": "We have almost forgotten." },
+    "joy": { "ipa": "/dʒɔɪ/", "zh": "喜悦；快乐", "example": "The quiet joy of paying attention." },
+    "paying": { "ipa": "/ˈpeɪɪŋ/", "zh": "给予；付出（这里指投入）", "example": "The joy of paying attention." },
+    "attention": { "ipa": "/əˈtenʃən/", "zh": "注意；专注", "example": "Paying attention." }
+  }
+}

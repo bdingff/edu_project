@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#FAF7F2" />
+  <title>Slow Read · 极简英语精读</title>
+  <link rel="preload" as="fetch" href="data/article-001.json" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/app.css" />
+</head>
+<body>
+  <!-- ============ HOME ============ -->
+  <main id="home-screen" class="screen screen--home" data-screen="home">
+    <header class="home__brand">
+      <span class="home__logo">Slow Read</span>
+    </header>
+
+    <section class="home__hero" aria-label="Today's reading">
+      <article class="card" id="today-card" tabindex="0" role="button" aria-label="Open today's reading">
+        <div class="card__tag">今日精读</div>
+        <h1 class="card__title" data-bind="title">—</h1>
+        <p class="card__hook" data-bind="hook">—</p>
+        <div class="card__meta">
+          <span class="card__meta-item" data-bind="time">25 min</span>
+          <span class="card__meta-dot"></span>
+          <span class="card__meta-item" data-bind="level">CEFR B1</span>
+        </div>
+        <div class="card__cta">开始阅读 →</div>
+      </article>
+    </section>
+
+    <section class="home__below" aria-label="Secondary widgets">
+      <div class="widget widget--streak">
+        <div class="widget__label">连续天数</div>
+        <div class="widget__value">1<span class="widget__unit">天</span></div>
+      </div>
+      <div class="widget widget--review">
+        <div class="widget__label">昨日复习</div>
+        <div class="widget__value widget__value--muted">暂无</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ READER ============ -->
+  <main id="reader-screen" class="screen screen--reader" data-screen="reader" hidden>
+    <header class="reader__top">
+      <button class="reader__back" id="back-btn" aria-label="Back to home">←</button>
+      <div class="reader__title" data-bind="title">—</div>
+      <div class="mode-toggle" role="tablist" aria-label="Reading mode">
+        <button class="mode-toggle__opt" data-mode="skim" role="tab" aria-selected="true">泛读</button>
+        <button class="mode-toggle__opt" data-mode="intensive" role="tab" aria-selected="false">精读</button>
+      </div>
+    </header>
+
+    <article class="reader__article" id="article-body" aria-live="polite"></article>
+
+    <footer class="reader__progress" id="reader-progress" aria-hidden="true">
+      <div class="reader__progress-bar"></div>
+    </footer>
+  </main>
+
+  <!-- ============ WORD DRAWER (pre-rendered for <200ms) ============ -->
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-label="Word definition">
+    <div class="drawer__handle" aria-hidden="true"></div>
+    <header class="drawer__head">
+      <span class="drawer__word" id="drawer-word">—</span>
+      <span class="drawer__ipa" id="drawer-ipa">—</span>
+    </header>
+    <p class="drawer__zh" id="drawer-zh">—</p>
+    <p class="drawer__example" id="drawer-example">—</p>
+    <button class="drawer__close" id="drawer-close" aria-label="Close">收起</button>
+  </aside>
+
+  <!-- ============ TOAST (intent: try intensive) ============ -->
+  <div class="toast" id="intensive-toast" hidden>
+    <span class="toast__msg">读完了！试试 <b>精读</b> 模式 →</span>
+    <button class="toast__cta" id="toast-try">好的</button>
+    <button class="toast__dismiss" id="toast-dismiss" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
